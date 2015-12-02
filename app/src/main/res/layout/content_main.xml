@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#353045"
+    android:fontFamily="Arial"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introduce tu nombre"
+        android:id="@+id/textView"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+
+        />
+
+    <EditText android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#25A881"
+        />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="@string/botonOK"
+        android:layout_gravity="center"
+        android:onClick="botonOK"
+        android:background="#25A881"
+
+        />
+
+</LinearLayout>

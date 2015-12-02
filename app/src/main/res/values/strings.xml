@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Espacial</string>
+    <string name="action_settings">Settings</string>
+    <string name="nombre">Nombre</string>
+    <string name="botonOK">OK</string>
+    <string name="title_activity_display_name">Mi nombre</string>
+</resources>
